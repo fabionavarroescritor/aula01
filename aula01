@@ -1,0 +1,24 @@
+//tela inteira
+//fullScreen();
+
+//estabelece canvas em seu temanho e cor de fundo
+void setup() {
+  size (600, 600); 
+  background (120);
+}
+
+//desenha as formas, cores e tranaparências
+void draw() { 
+  noStroke(); 
+  fill (15, 21, 93, 255);
+  ellipse (300, 300, 340, 340);
+
+  stroke(0);
+  noFill ();
+  ellipse (380, 300, 180, 180);
+  
+  stroke(0); 
+  fill(222, 105, 105, 70);
+  rect (130, 220, 160, 160);
+  
+}
